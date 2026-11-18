@@ -1,0 +1,52 @@
+{
+  "tool": "built-in image_gen",
+  "status": "new-expression-drafts-pending-owner-review",
+  "character": "dhanuka",
+  "backend": "offline canvas pose animation",
+  "views": [
+    "front",
+    "threeQuarter",
+    "side"
+  ],
+  "actions": [
+    "blink",
+    "smile",
+    "laugh",
+    "angry",
+    "lookLeft",
+    "lookRight"
+  ],
+  "sample": "library/dhanuka-all-actions.tnd.json",
+  "generated": [
+    {
+      "id": "blink",
+      "file": "assets/turnarounds/dhanuka-front-blink-v1.png",
+      "prompt": "Precise facial edit to supplied DHANUKA 4-view turnaround. Close BOTH eyes naturally with black curved closed eyelids in FIRST FRONT and SECOND THREE-QUARTER figures ONLY. Preserve mouth and teeth unchanged. Keep face dimensions, nose, freckles and all hair, ears, bodies, colors, poses, outlines, labels and framing unchanged. THIRD SIDE and FOURTH BACK must stay unchanged. Keep exact same sheet layout and figure positions; do not add views or redesign. Only facial expression changes described above. Draft animation pose reference."
+    },
+    {
+      "id": "open",
+      "file": "assets/turnarounds/dhanuka-front-open-v1.png",
+      "prompt": "Precise facial edit to supplied DHANUKA 4-view turnaround. In FIRST FRONT and SECOND THREE-QUARTER figures ONLY, open the mouth moderately into a natural mischievous smile, black mouth interior, small pink tongue, TWO upper buck teeth seated behind upper lip. Eyes and eyebrows unchanged. Keep face dimensions, nose, freckles and all hair, ears, bodies, colors, poses, outlines, labels and framing unchanged. THIRD SIDE and FOURTH BACK must stay unchanged. Keep exact same sheet layout and figure positions; do not add views or redesign. Only facial expression changes described above. Draft animation pose reference."
+    },
+    {
+      "id": "laugh",
+      "file": "assets/turnarounds/dhanuka-front-laugh-v1.png",
+      "prompt": "Precise facial edit to supplied DHANUKA 4-view turnaround. Make FIRST FRONT and SECOND THREE-QUARTER figures laugh happily: squint eyes into happy closed curves, medium open black mouth with small pink tongue, TWO upper buck teeth naturally attached to upper lip. Maintain smile identity and chin position. Keep face dimensions, nose, freckles and all hair, ears, bodies, colors, poses, outlines, labels and framing unchanged. THIRD SIDE and FOURTH BACK must stay unchanged. Keep exact same sheet layout and figure positions; do not add views or redesign. Only facial expression changes described above. Draft animation pose reference."
+    },
+    {
+      "id": "angry",
+      "file": "assets/turnarounds/dhanuka-angry-v1.png",
+      "prompt": "Precise animation facial pose edit of supplied Dhanuka four-view sheet. Show angry expression in FIRST FRONT, SECOND 3/4 and THIRD SIDE: lower brows, narrow eyes and tense closed smile with buck teeth consistent with angle. Do not change head pose. Preserve exact face outline, hair, ears, freckles, nose, teeth count and profile tooth size, body, colors, all view positions and labels. BACK unchanged with no eyes. Same complete sheet. Do not redesign. Draft face/eye patch reference."
+    },
+    {
+      "id": "lookLeft",
+      "file": "assets/turnarounds/dhanuka-lookLeft-v1.png",
+      "prompt": "Precise animation facial pose edit of supplied Dhanuka four-view sheet. In FIRST FRONT, SECOND 3/4 and THIRD SIDE, move ONLY pupils to look toward IMAGE LEFT. Keep eyelids, brows, mouth and head unchanged. Eyes remain inside their existing whites. Preserve exact face outline, hair, ears, freckles, nose, teeth count and profile tooth size, body, colors, all view positions and labels. BACK unchanged with no eyes. Same complete sheet. Do not redesign. Draft face/eye patch reference."
+    },
+    {
+      "id": "lookRight",
+      "file": "assets/turnarounds/dhanuka-lookRight-v1.png",
+      "prompt": "Precise animation facial pose edit of supplied Dhanuka four-view sheet. In FIRST FRONT, SECOND 3/4 and THIRD SIDE, move ONLY pupils to look toward IMAGE RIGHT. Keep eyelids, brows, mouth and head unchanged. Eyes remain inside their existing whites. Preserve exact face outline, hair, ears, freckles, nose, teeth count and profile tooth size, body, colors, all view positions and labels. BACK unchanged with no eyes. Same complete sheet. Do not redesign. Draft face/eye patch reference."
+    }
+  ]
+}

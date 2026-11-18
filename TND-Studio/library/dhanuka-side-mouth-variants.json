@@ -1,0 +1,12 @@
+{
+  "tool": "built-in image_gen",
+  "open": {
+    "file": "assets/turnarounds/dhanuka-views-v4.png",
+    "status": "side-open-mouth-approved"
+  },
+  "closed": {
+    "file": "assets/turnarounds/dhanuka-views-closed-v5.png",
+    "status": "draft-pending-owner-review",
+    "prompt": "Precise local edit to provided DHANUKA 4-view sheet. Change ONLY THIRD figure labelled SIDE from open mouth to CLOSED mischievous smile. Close black mouth cavity completely and hide pink tongue. His characteristic UPPER buck incisor must remain visible: ONE near tooth in strict side profile, its upper root naturally behind upper lip and its rounded white tip protruding just a LITTLE below the CLOSED LOWER LIP. Compact short tooth tip, about 8-12 image pixels below lip at this sheet scale; NOT a long fang or dangling rectangle. Far tooth fully occluded, no dividing stripe. Lower lip closes behind the tooth, anatomically coherent. Keep chin, nose and facial silhouette consistent. All other view figures and all other artwork, labels, colors, proportions, hair, eyes, ears, freckles, body and framing unchanged. FRONT/3-quarter retain two teeth as supplied. Same full sheet. This is a separate closed-mouth variant; do not add extra figures."
+  }
+}

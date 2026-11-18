@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {createActor,putKey,sampleActor,freshProject,validateProject} from '../core.mjs';
+test('view changes switch at key and persist',()=>{const a=createActor('dhanuka');assert.equal(sampleActor(a,0).view,'reference');putKey(a,2,{view:'side',mouth:'open'});assert.equal(sampleActor(a,1.99).view,'reference');assert.equal(sampleActor(a,2).view,'side');assert.equal(sampleActor(a,2).mouth,'open');const p=freshProject();p.cast=[a];assert.equal(validateProject(JSON.parse(JSON.stringify(p))).cast[0].keys[1].view,'side');});
+test('invalid view import is rejected',()=>{const p=freshProject();p.cast=[createActor('dhanuka')];p.cast[0].keys[0].view='unknown';assert.throws(()=>validateProject(p));});

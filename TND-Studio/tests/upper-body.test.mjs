@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {upperBodyOffset,WAIST_FRACTION} from '../upper-body.mjs';
+test('waist, legs and feet stay completely fixed while upper body moves',()=>{for(const t of [.1,.3,.6,1]){assert.equal(upperBodyOffset(WAIST_FRACTION,720,1,t),0);assert.equal(upperBodyOffset(.9,720,1,t),0);assert.equal(upperBodyOffset(1,720,1,t),0);}assert.notEqual(upperBodyOffset(.4,720,1,.3),0);});
+test('upper motion smoothly reaches zero at waist and action boundaries',()=>{assert.ok(Math.abs(upperBodyOffset(WAIST_FRACTION-.001,720,1,.3))<.001);assert.equal(upperBodyOffset(.2,720,0,.3),0);assert.ok(Math.abs(upperBodyOffset(.2,720,1,.3))<=720*.0035);});

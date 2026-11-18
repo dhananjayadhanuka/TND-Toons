@@ -1,0 +1,15 @@
+{
+  "id": "dhanuka_side_laugh",
+  "name": "Dhanuka Side Laugh",
+  "character": "dhanuka",
+  "view": "side",
+  "defaultDuration": 3,
+  "backend": "local-2d",
+  "status": "draft-owner-review-required",
+  "asset": "assets/turnarounds/dhanuka-side-laugh-v1.png",
+  "tool": "built-in image_gen",
+  "prompt": "Precise facial edit of provided DHANUKA 4-view turnaround. Only THIRD SIDE figure: joyful mischievous LAUGH facial pose. Eye squints happily into closed curved eyelid, eyebrow lifts slightly; mouth opens into a cheerful medium laugh with black interior and small pink tongue; ONE visible upper buck incisor stays naturally attached to upper lip in side perspective, far tooth hidden. Keep nose, forehead, freckles and chin proportions, same head position and same facial outline as closely as possible. Do not move or rotate head/body. Preserve all hair, ears, body, hands, legs, colors and other three figures/labels/framing unchanged. No speech, no text, no additional limbs. This is a draft expression patch, not a character redesign. Same complete sheet.",
+  "implementation": "Face-region pose blending with eased start/end and whole-character bounce/tilt. Not an independent shoulder/limb rig.",
+  "sampleProject": "library/dhanuka-side-laugh.tnd.json",
+  "verification": "12 tests passed; isolated browser loaded Laugh project, exported 1280x720 WebM, preview at 0.60s visually inspected."
+}

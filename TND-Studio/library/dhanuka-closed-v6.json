@@ -1,0 +1,6 @@
+{
+  "tool": "built-in image_gen",
+  "file": "assets/turnarounds/dhanuka-views-closed-v6.png",
+  "status": "owner-approved",
+  "prompt": "Precise edit of supplied DHANUKA 4-view model sheet. ONLY elongate the visible white upper incisor of the THIRD SIDE figure's CLOSED smile. Its current exposed tooth is too short. Match its exposed vertical tooth length to ONE tooth of the FRONT figure in this SAME sheet: about 25-28 pixels long below the lip, roughly 1.7-1.9 times current side tooth height. Perspective narrows tooth width, not its vertical length. Keep ONE visible profile tooth with rounded bottom, its root anchored behind upper lip and lower lip closing behind it. Keep the existing CLOSED mouth smile curve and no black open mouth cavity/no tongue. Do not turn tooth into sharp fang. Preserve every other part of sheet: FRONT/3-quarter teeth unchanged, hair, face, nose, eyes, freckles, chin, body, colors, other views, labels, framing and size. This is a separate revised closed-mouth variant."
+}

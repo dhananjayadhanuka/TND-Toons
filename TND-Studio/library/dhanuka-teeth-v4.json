@@ -1,0 +1,7 @@
+{
+  "tool": "built-in image_gen",
+  "file": "assets/turnarounds/dhanuka-views-v4.png",
+  "status": "draft-pending-owner-review",
+  "supportingReference": "assets/turnarounds/thilini-views-v2.png",
+  "prompt": "Precise local correction. Image1 is edit target DHANUKA four-view sheet. Image2 THILINI four-view sheet is SUPPORTING reference for correct side-profile MOUTH/TOOTH construction, not character identity.\nChange ONLY the mouth and tooth of the THIRD (SIDE) DHANUKA in Image1. Previous corrections left a white tooth hanging from a closed smile, which is wrong. Use the construction of THILINI'S THIRD SIDE figure in Image2: a small open black mouth cavity under the upper lip, with ONE visible near upper incisor seated INSIDE the opening, its upper root concealed by the lip. Far tooth hidden by perspective. A tiny pink tongue may sit behind the tooth as in Thilini. Keep the tooth substantial like his front buck teeth viewed edge-on, NOT a tiny white dot, NOT a long hanging fang, NOT a detached white rectangle. Shape the lower smile contour naturally around the small mouth opening. Adapt to Dhanuka's existing chin and nose and mischievous smile. Do NOT copy Thilini's face. Dhanuka must retain his identity.\nAll other parts of Image1, including FRONT and 3/4 with two teeth, BACK, labels, skin, freckles, eyes, hair, ears, body and pose must remain visually unchanged. Same four-view sheet and framing."
+}

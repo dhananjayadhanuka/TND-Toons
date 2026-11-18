@@ -1,0 +1,17 @@
+{
+  "thilini": {
+    "version": "v2",
+    "ownerReview": "approved",
+    "note": "Owner confirmed Thilini is correct after side-profile tooth correction."
+  },
+  "dhanuka": {
+    "version": "v4",
+    "ownerReview": "open-mouth-side-approved",
+    "note": "Owner approved v4 open-mouth side. Separate closed-mouth v5 is pending approval."
+  },
+  "nurashi": {
+    "version": "v1",
+    "ownerReview": "pending",
+    "note": "Side-profile tooth was used as a positive example; full turnaround approval not explicitly given."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "title": "Dhanuka Side Blink",
+  "duration": 4,
+  "format": "landscape",
+  "background": "studio",
+  "customBackground": null,
+  "narration": null,
+  "cast": [
+    {
+      "id": "69362000-9e64-4a8e-9253-feeb31dc70da",
+      "charId": "dhanuka",
+      "keys": [
+        {
+          "view": "side",
+          "mouth": "closed",
+          "time": 0,
+          "x": 50,
+          "y": 85,
+          "scale": 1.2,
+          "rotation": 0,
+          "flip": false,
+          "opacity": 1,
+          "expression": "original",
+          "outfit": "original"
+        }
+      ],
+      "clips": [
+        {
+          "id": "side-blink",
+          "type": "blink",
+          "start": 0,
+          "duration": 4
+        }
+      ]
+    }
+  ],
+  "approvals": {}
+}

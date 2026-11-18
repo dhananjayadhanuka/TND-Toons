@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "title": "Dhanuka actions - three views",
+  "duration": 38,
+  "format": "landscape",
+  "background": "studio",
+  "customBackground": null,
+  "narration": null,
+  "cast": [
+    {
+      "id": "fa69c20e-4e1a-495a-96ff-0acae8422b86",
+      "charId": "dhanuka",
+      "keys": [
+        {
+          "view": "front",
+          "mouth": "closed",
+          "time": 0,
+          "x": 50,
+          "y": 85,
+          "scale": 1.15,
+          "rotation": 0,
+          "flip": false,
+          "opacity": 1,
+          "expression": "original",
+          "outfit": "original"
+        },
+        {
+          "view": "threeQuarter",
+          "mouth": "closed",
+          "time": 12,
+          "x": 50,
+          "y": 85,
+          "scale": 1.15,
+          "rotation": 0,
+          "flip": false,
+          "opacity": 1,
+          "expression": "original",
+          "outfit": "original"
+        },
+        {
+          "view": "side",
+          "mouth": "closed",
+          "time": 24,
+          "x": 50,
+          "y": 85,
+          "scale": 1.15,
+          "rotation": 0,
+          "flip": false,
+          "opacity": 1,
+          "expression": "original",
+          "outfit": "original"
+        },
+        {
+          "view": "back",
+          "mouth": "closed",
+          "time": 36,
+          "x": 50,
+          "y": 85,
+          "scale": 1.15,
+          "rotation": 0,
+          "flip": false,
+          "opacity": 1,
+          "expression": "original",
+          "outfit": "original"
+        }
+      ],
+      "clips": [
+        {
+          "id": "front-blink",
+          "type": "blink",
+          "start": 0,
+          "duration": 2
+        },
+        {
+          "id": "front-smile",
+          "type": "smile",
+          "start": 2,
+          "duration": 2
+        },
+        {
+          "id": "front-laugh",
+          "type": "laugh",
+          "start": 4,
+          "duration": 2
+        },
+        {
+          "id": "front-angry",
+          "type": "angry",
+          "start": 6,
+          "duration": 2
+        },
+        {
+          "id": "front-lookLeft",
+          "type": "lookLeft",
+          "start": 8,
+          "duration": 2
+        },
+        {
+          "id": "front-lookRight",
+          "type": "lookRight",
+          "start": 10,
+          "duration": 2
+        },
+        {
+          "id": "threeQuarter-blink",
+          "type": "blink",
+          "start": 12,
+          "duration": 2
+        },
+        {
+          "id": "threeQuarter-smile",
+          "type": "smile",
+          "start": 14,
+          "duration": 2
+        },
+        {
+          "id": "threeQuarter-laugh",
+          "type": "laugh",
+          "start": 16,
+          "duration": 2
+        },
+        {
+          "id": "threeQuarter-angry",
+          "type": "angry",
+          "start": 18,
+          "duration": 2
+        },
+        {
+          "id": "threeQuarter-lookLeft",
+          "type": "lookLeft",
+          "start": 20,
+          "duration": 2
+        },
+        {
+          "id": "threeQuarter-lookRight",
+          "type": "lookRight",
+          "start": 22,
+          "duration": 2
+        },
+        {
+          "id": "side-blink",
+          "type": "blink",
+          "start": 24,
+          "duration": 2
+        },
+        {
+          "id": "side-smile",
+          "type": "smile",
+          "start": 26,
+          "duration": 2
+        },
+        {
+          "id": "side-laugh",
+          "type": "laugh",
+          "start": 28,
+          "duration": 2
+        },
+        {
+          "id": "side-angry",
+          "type": "angry",
+          "start": 30,
+          "duration": 2
+        },
+        {
+          "id": "side-lookLeft",
+          "type": "lookLeft",
+          "start": 32,
+          "duration": 2
+        },
+        {
+          "id": "side-lookRight",
+          "type": "lookRight",
+          "start": 34,
+          "duration": 2
+        }
+      ]
+    }
+  ],
+  "approvals": {}
+}

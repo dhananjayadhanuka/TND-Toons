@@ -1,0 +1,23 @@
+{
+  "tool": "built-in image_gen",
+  "status": "draft-for-owner-motion-and-likeness-review",
+  "character": "dhanuka",
+  "supportedView": "front",
+  "action": "bellyLaugh",
+  "defaultDuration": 6,
+  "assets": [
+    {
+      "file": "assets/actions/belly-laugh/pose-study-v1.png",
+      "role": "three-quarter key pose study, not used as animated frames",
+      "prompt": "Use case identity-preserve. Asset: animation KEY-POSE STUDY for a natural belly laugh, owner review draft.\nInput is definitive Dhanuka design. Use ONLY DHANUKA, specifically SECOND 3/4 view, facing right. Keep same golden skin, huge pointed ears, messy black hair with curled and ball-tipped antenna hairs, sleepy eyes, freckles, two buck teeth, slim torso and thin limbs. No clothes added. No redesign.\nCreate SIX full-body sequential poses in a strict 3-COLUMN x 2-ROW grid, equal cells, reading order. All figures SAME anatomical size and SAME planted feet positions within each cell; full hair/feet visible. Plain white background, generous cell margins, NO labels or text or shadows.\n1 original hands-on-waist relaxed mischievous stance matching reference.\n2 anticipation: smile grows, elbows release from hips, hands begin moving forward.\n3 transition: both forearms travel toward belly, elbows bent plausibly, hands halfway, fingers clean and coherent.\n4 contact: BOTH palms naturally resting on belly, one slightly above the other, shoulders relaxed, torso almost upright, small smile, same foot placement.\n5 belly laugh: BOTH hands stay in contact with belly, upper torso bends forward modestly about 8 degrees, eyes happily squint, mouth opens laughing with two upper buck teeth and small tongue.\n6 peak laugh: SAME hands/belly contact, torso bends slightly more (about 12 degrees), head follows naturally without a snapped neck, eyes happy closed, open laugh, knees soften very slightly but soles stay planted exactly.\nPrioritize believable weight, continuous anatomy, clean two arms/two hands/two legs, stable body proportions and design. Not floating, not whole body bouncing, not wild rubber deformation. This is a pose study, not finished animation."
+    },
+    {
+      "file": "assets/actions/belly-laugh/armless-base-v1.png",
+      "role": "front torso reconstruction patch only",
+      "prompt": "Animation rig preparation edit. Input definitive DHANUKA four-view sheet. ONLY FIRST FRONT figure: REMOVE BOTH ARMS AND HANDS completely, cleanly reconstruct the small golden torso contours where arms/hands overlapped. Keep shoulder positions (clean rounded torso edge), neck, belly shape and slim proportions. No stumps or new limbs; this is an armless base layer for a 2D rig, not a new character design. Keep exact same head, hair, ears, freckles, eyes, mouth, two teeth, legs, feet, skin colors, positions and scale. SECOND 3/4, THIRD SIDE, FOURTH BACK, labels and background remain unchanged. Same complete four-view sheet. No text added."
+    }
+  ],
+  "runtime": "Procedural two-bone arms, vector mitten hands, cached torso/expression layers, anchored upper-body deformation; fixed legs and feet.",
+  "preview": "belly-preview.html",
+  "sample": "library/dhanuka-belly-laugh.tnd.json"
+}

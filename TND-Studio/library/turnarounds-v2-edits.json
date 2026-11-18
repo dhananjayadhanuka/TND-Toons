@@ -1,0 +1,15 @@
+{
+  "tool": "built-in image_gen",
+  "status": "draft-review-required",
+  "change": "Corrected side-profile teeth overlap; front and three-quarter retain two visible teeth.",
+  "characters": {
+    "dhanuka": {
+      "file": "assets/turnarounds/dhanuka-views-v2.png",
+      "prompt": "Precise object edit of the supplied dhanuka FOUR-VIEW turnaround sheet. ONLY correct the TEETH in the THIRD figure labelled SIDE. It is a strict right-facing profile. The two upper buck teeth must overlap in perspective so ONE near tooth silhouette is visible; hide the far tooth behind it. Remove the central dividing line and side-by-side second tooth appearance ONLY in the side-view mouth. Make the visible white tooth narrow and naturally aligned beneath the upper lip, following the profile. Preserve the smile, mouth opening, nose, chin and face silhouette. FRONT and 3/4 must retain TWO distinct front teeth. Keep all four figures' positions, size, hair, ears, eyes, freckles, body, clothes, colors, outlines, white background and labels unchanged. No redesign, no extra objects. Output same complete four-view sheet and same aspect ratio."
+    },
+    "thilini": {
+      "file": "assets/turnarounds/thilini-views-v2.png",
+      "prompt": "Precise object edit of the supplied thilini FOUR-VIEW turnaround sheet. ONLY correct the TEETH in the THIRD figure labelled SIDE. It is a strict right-facing profile. The two upper buck teeth must overlap in perspective so ONE near tooth silhouette is visible; hide the far tooth behind it. Remove the central dividing line and side-by-side second tooth appearance ONLY in the side-view mouth. Make the visible white tooth narrow and naturally aligned beneath the upper lip, following the profile. Preserve the smile, mouth opening, nose, chin and face silhouette. FRONT and 3/4 must retain TWO distinct front teeth. Keep all four figures' positions, size, hair, ears, eyes, freckles, body, clothes, colors, outlines, white background and labels unchanged. No redesign, no extra objects. Output same complete four-view sheet and same aspect ratio."
+    }
+  }
+}

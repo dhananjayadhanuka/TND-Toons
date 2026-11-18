@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {blinkAmount} from '../blink.mjs';import {freshProject,createActor,validateProject} from '../core.mjs';
+test('blink opens, closes and returns to original within clip',()=>{const a=createActor('dhanuka');a.clips=[{type:'blink',start:1,duration:2}];assert.equal(blinkAmount(a,1),0);assert.equal(blinkAmount(a,1.5),1);assert.equal(blinkAmount(a,1.7),0);assert.equal(blinkAmount(a,3),0);assert.ok(blinkAmount(a,1.41)>0&&blinkAmount(a,1.41)<1);});
+test('blink stays character-specific and survives project save/load',()=>{const p=freshProject();p.cast=[createActor('dhanuka')];p.cast[0].clips=[{id:'blink1',type:'blink',start:0,duration:2}];const saved=validateProject(JSON.parse(JSON.stringify(p)));assert.equal(blinkAmount(saved.cast[0],.5),1);saved.cast[0].charId='nurashi';assert.equal(blinkAmount(saved.cast[0],.5),0);});

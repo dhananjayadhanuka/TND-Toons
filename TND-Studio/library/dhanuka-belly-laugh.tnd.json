@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "title": "Dhanuka Belly Laugh - rig draft",
+  "duration": 7,
+  "format": "landscape",
+  "background": "studio",
+  "customBackground": null,
+  "narration": null,
+  "cast": [
+    {
+      "id": "9c44c724-68d2-4fa9-80fe-e5be7299376c",
+      "charId": "dhanuka",
+      "keys": [
+        {
+          "view": "front",
+          "mouth": "closed",
+          "time": 0,
+          "x": 50,
+          "y": 85,
+          "scale": 1.15,
+          "rotation": 0,
+          "flip": false,
+          "opacity": 1,
+          "expression": "original",
+          "outfit": "original"
+        }
+      ],
+      "clips": [
+        {
+          "id": "belly-draft",
+          "type": "bellyLaugh",
+          "start": 0.5,
+          "duration": 6
+        }
+      ]
+    }
+  ],
+  "approvals": {}
+}

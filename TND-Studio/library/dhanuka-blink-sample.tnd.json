@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "title": "Dhanuka Blink sample",
+  "duration": 4,
+  "format": "landscape",
+  "background": "studio",
+  "customBackground": null,
+  "narration": null,
+  "cast": [
+    {
+      "id": "06acae7d-b2ae-46a7-88db-087cd6aa1610",
+      "charId": "dhanuka",
+      "keys": [
+        {
+          "time": 0,
+          "x": 50,
+          "y": 85,
+          "scale": 1.2,
+          "rotation": 0,
+          "flip": false,
+          "opacity": 1,
+          "expression": "original",
+          "outfit": "original"
+        }
+      ],
+      "clips": [
+        {
+          "id": "blink-demo",
+          "type": "blink",
+          "start": 0,
+          "duration": 4
+        }
+      ]
+    }
+  ],
+  "approvals": {}
+}
